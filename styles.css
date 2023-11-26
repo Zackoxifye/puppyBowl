@@ -1,0 +1,55 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+  font-size: 800%;
+  font-family: fantasy;
+  color: white;
+  text-decoration: underline;
+  text-shadow: 13px 8px 8px black;
+}
+
+body {
+  background-color: midnightblue;
+}
+
+.playerCard {
+  margin-left: 3%;
+  margin-top: 5%;
+  width: 20%;
+  background-color: white;
+  border: solid black 3px;
+  border-radius: 4%;
+  font-size: 150%;
+  font-family: fantasy;
+  text-align: center;
+}
+
+.playerCard img {
+  max-width: 100%;
+}
+
+.playerModal {
+  position: fixed;
+  margin-left: 40%;
+  margin-top: 5%;
+  opacity: 1;
+  width: 180%;
+  height: 100vh;
+  z-index: 10;
+  top: 0;
+  left: 0;
+}
+
+#new-player-form {
+  text-align: center;
+  margin-top: 3%;
+  color: white;
+  font-size: 130%;
+  font-family: fantasy;
+  text-shadow: 13px 8px 8px black;
+}
